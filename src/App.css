@@ -48,12 +48,14 @@
 
 .home-container {
 	padding: 20px;
+	min-height: 100vh;
 	background: #0B0C23 !important
 }
 
 .tabs-container {
 	background: #fff;
 	position: relative;
+	min-height: 94vh;
 	padding: 20px;
 	border: 1px solid #8a8a8a;
 }

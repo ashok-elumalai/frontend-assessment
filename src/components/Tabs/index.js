@@ -114,8 +114,9 @@ export default function TabComponent() {
         }
     });
 
-// Added bit style to make a page responsive(Basic responsive) for both smaller and bigger device .
-const isTabletOrMobile = useMediaQuery({ maxWidth: 600 })
+// Usally we need to implement mobile first approach with media query.
+// Since it is a small app I have used react-responsive.
+const isTabletOrMobile = useMediaQuery({ maxWidth: 900 })
 const ButtonWrapper = isTabletOrMobile ? WrapperForSmallScreens : WrapperForBigScreens
 
     return (
